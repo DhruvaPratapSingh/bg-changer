@@ -1,28 +1,3 @@
-// import './App.css'
-// import Changer from './Changer'
-// function App() {
-//   return (
-//     <>
-//       <div className="w-full h-screen">
-//   <div className="fixed flex flex-wrap justify-center 
-//   bottom-12 inset-x-0 px-2 ">
-//     <div className='flex flex-wrap justify-center gap-3
-//     shadow-lg bg-white'>
-//       <Changer style={{backgroundColor:"red"}} name="black"/>
-//       <Changer name="red"/>
-//       <Changer name="yellow"/>
-//       <Changer name="blue"/>
-//     </div>
-//   </div>
-// </div>
-      
-  
-//     </>
-//   )
-// }
-
-// export default App
-
 import { useState } from "react"
 
 
@@ -50,6 +25,21 @@ function App() {
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor: "blue"}}
           >Blue</button>
+          <button
+          onClick={() => setColor("pink")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "pink"}}
+          >pink</button>
+          <button
+          onClick={() => setColor("orange")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "orange"}}
+          >Orange</button>
+          <button
+          onClick={() => setColor("aqua")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "aqua"}}
+          >aqua</button>
         </div>
       </div>
     </div>
